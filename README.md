@@ -21,7 +21,7 @@ Install flask
 
 ```
 
-Service bus SDK
+Azure Service Bus SDK
 
 ```python
 
@@ -53,7 +53,7 @@ Via the portal you can create a subscription, by going to your namespace and sel
 
 Once the subscription is created you can navigate to it and create one or more *Subscriptions*.
 
-##Running the sample
+## Running the sample
 
 Running the sender:
 
