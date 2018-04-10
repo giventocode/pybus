@@ -6,7 +6,7 @@ Simple implementation of message multicasting using Service Bus subscriptions an
 
 This sample has two components: the sender (sender.py) and the receiver (receiver.py).
 
-The sender is a simple web app that expects a POST request that includes the topic and the message to be delivered to the bus. The thought behind this approach is having the sender app live side by side (e.g. in a container) with the process that multicast the message to the receivers, and thus decouple the Service Bus semantics from the caller.
+The sender is a simple web app that expects a POST request that includes the topic and the message to be delivered to the bus. The thought behind this approach is having the sender app live side by side (e.g., in a container) with the process requiring message multicasting, and thus decoupling the Service Bus semantics from the caller.
 
 The receiver is a sample implementation of a subscription to a specific topic. Each instance represents a client receiving messages from a specific topic.
 
