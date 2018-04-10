@@ -1,6 +1,6 @@
 # pybus
 
-Simple example of message multicasting using Service Bus subscriptions and topics
+Simple implementation of message multicasting using Service Bus subscriptions and topics
 
 ![logo](https://github.com/giventocode/pybus/raw/master/multicast.png)
 
