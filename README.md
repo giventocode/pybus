@@ -77,6 +77,6 @@ Issue a multi-form POST request using curl:
 
 ```bash
 
-curl -X POST -F X POST -F 'topic=topic1'  -F 'msg={"id":1,"name":"my message"}' http://localhost:5000
+curl -X POST -F 'topic=topic1'  -F 'msg={"id":1,"name":"my message"}' http://localhost:5000
 
 ```
